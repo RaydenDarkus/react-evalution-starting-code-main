@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #fefefe;
 }
 
 #app {
@@ -13,15 +13,12 @@ body {
     flex-direction: row;
     max-width: 800px;
     margin: 20px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     padding: 20px;
     gap: 20px;
 }
 
 .inventory-container, .cart-container {
-    width: 100%;
+    flex: 1;
 }
 
 h1 {
@@ -62,7 +59,7 @@ li {
 }
 
 .add-to-cart-btn {
-    background-color: #2196F3;
+    background-color: #0869b8;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -71,7 +68,7 @@ li {
 }
 
 .delete-btn {
-    background-color: #2196F3;
+    background-color: #0869b8;
     color: white;
     border: none;
     padding: 5px 10px;
